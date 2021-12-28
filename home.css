@@ -1,0 +1,36 @@
+.block{
+    width: 150px;
+    height: 230px;
+    padding: 14px;
+    background: rgb(25, 25, 25);
+    border-radius: 6px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    cursor:pointer;
+    transition: 400ms;
+    display:flex;
+    flex-direction: column;
+    font-size: smaller;
+    color: white;
+}
+
+.block:hover{
+    background: rgb(38, 38, 38);
+}
+
+.headline{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.lines{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.poster{
+    width: 150px;
+    height: 160px;
+}

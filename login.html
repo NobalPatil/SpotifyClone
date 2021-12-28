@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="head">
+        <img class="logo" src="logo.jpg" alt=""/>
+    </div>
+    <hr style="color: rgba(0, 0, 0,0.2);">
+    <div class="center">
+        <h4  id="h4">To continue, log in to Spotify.</h4>
+        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=174829003346&kid_directed_site=0&app_id=174829003346&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv7.0%2Fdialog%2Foauth%3Fclient_id%3D174829003346%26state%3DAQDo0f0xFP1MzgF0iEhmCi5hxWP2zBuXnP9lry1Wu0F7%252F9GcNN447C2%252FmHbOq04%252B9UbbTEqgL8x2b98na%252Bb9Y4SANc5%252BpPaVGPjke%252FvmvpIMwDnro1iLK6D7yTpUdVFEDHhxr6bpep%252FC8aCQ%252FhjyM12pzuFHJoZghHXw%252BnFhuoHP58S7Oh%252BT1izk9kxAqlNWJGukaJEkOASq%26redirect_uri%3Dhttps%253A%252F%252Faccounts.spotify.com%252Flogin%252Ffacebook%252Fredirect%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dd926e24a-fe4a-4627-901c-f1fc0bdd2a34%26tp%3Dunspecified&cancel_url=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Ffacebook%2Fredirect%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DAQDo0f0xFP1MzgF0iEhmCi5hxWP2zBuXnP9lry1Wu0F7%252F9GcNN447C2%252FmHbOq04%252B9UbbTEqgL8x2b98na%252Bb9Y4SANc5%252BpPaVGPjke%252FvmvpIMwDnro1iLK6D7yTpUdVFEDHhxr6bpep%252FC8aCQ%252FhjyM12pzuFHJoZghHXw%252BnFhuoHP58S7Oh%252BT1izk9kxAqlNWJGukaJEkOASq%23_%3D_&display=page&locale=en_GB&pl_dbl=0">
+            <button class="btn" id="btn1">CONTINUE WITH FACEBOOK</button>
+        </a>
+        <a href="https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQCzDH%2By1sTZcletYrL6UZmwMDh17JEpMKwpzEddXdxz8vcir%2Fhhi7ORXAM9%2FrFXWWc4561wLttlMd30lbunhVJS%2BrJgWqiruc%2BaRqHHXn3vTh%2Bk2TfFD37yBePOPmFpAamjzZ%2FbuVxAxcyFFxgUIOew%2Bw1kcFlNIt0jCBQW4XHBIwTjRd84K1GdZ%2BXzvJkgUi4MqznAA2Lu&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect">
+            <button class="btn" id="btn2">CONTINUE WITH APPLE</button>
+        </a>
+            
+        <a href="https://accounts.google.com/o/oauth2/v2/auth/identifier?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQA9SrmfKQKczAJSZisshKzq89KIvenMQA3unoN4%2BljKPx7tyFijrqPb02s6y8ATzfy0DYascbx%2Bc25KX6YF3F86CmU1bovpUfXun1t%2Bko18UG50sZCG6AKYIR9AnFoGtw2z8AGwtQrS5fhmewhAtQXsnS%2B5XEp6ST9g8l0gyRbLPf9GKrx4j5B7D3xCSv3L2n%2F5NU26pLAy&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect&flowName=GeneralOAuthFlow"> 
+            <button class="btn" id="btn3">CONTINUE WITH GOOGLE</button>
+        </a> 
+        <a href="https://accounts.spotify.com/en/login/phone?continue=https:%2F%2Fopen.spotify.com%2F">
+            <button class="btn" id="btn4">CONTINUE WITH PHONE NUMBER</button>
+        </a>
+        <p class="text">OR</p>
+        <p class="text">Email address or username</p>
+        <input class="text box" placeholder= "Email address or username" type="text">
+        <p class="text">Password</p>
+        <input class="text box" placeholder="Password" type="password">
+        <a id="forgot-pass" href="https://www.spotify.com/in-en/password-reset/">Forgot your password?</a>
+        <div style="display: flex;">
+            <input style="background:green" type="checkbox">
+            <p class="text" style="color: rgba(15, 15, 15, 0.6)">Remember me</p>
+        </div>
+        <button class="btn" id="btn5">LOG IN</button>
+        <h3 class="text" style="font-size: medium; color:black">Don't have an account?</h3>
+        <a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F">
+            <button class="btn" id="btn6">SIGN UP FOR SPOTIFY</button>
+        </a>
+    </div>
+</body>
+</html>

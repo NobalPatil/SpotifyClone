@@ -1,0 +1,118 @@
+.head{
+    padding:15px;
+    display:flex;
+    justify-content: center;
+}
+
+.logo{
+    width:190px;
+    height:65px;  
+}
+
+.center{
+    padding:15px;
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+}   
+
+#h4{
+    font-family:Arial, Helvetica, sans-serif;  
+}
+
+.btn{
+    padding:15px;
+    margin-bottom: 10px;
+    width: 450px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:15px;
+    cursor: pointer;
+}
+
+#btn1{
+    background-color: rgba(12, 48, 114, 0.8);
+    color: white;
+}
+
+#btn1:hover{
+    background: rgb(12, 48, 114, 0.7);
+}
+
+#btn2{
+    background-color: black;
+    color: white;
+}
+
+#btn2:hover{
+    background: rgb(48, 44, 44);
+}
+
+#btn3{
+    background-color: white;
+    color: rgb(15, 15, 15, 0.6);
+    border:solid;   
+}
+
+#btn3:hover{
+    background: rgb(85, 83, 95);
+    color:white;
+}
+
+#btn4{
+    background-color: white;
+    color: rgb(15, 15, 15, 0.6);
+    border:solid;
+}
+
+#btn4:hover{
+    background: rgb(85, 83, 95);
+    color:white;
+}
+
+.text{
+    color: rgb(38, 38, 39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+#btn5{
+    color: white;
+    background-color: rgb(28, 121, 59);
+}
+
+#btn5:hover{
+    background: rgba(38, 141, 72, 0.9);
+}
+
+#btn6{
+    background-color: white;
+    color: rgba(15, 15, 15, 0.6);
+    border:solid;
+}
+
+#btn6:hover{
+    background: rgb(85, 83, 95);
+    color:white;
+}
+
+.box{
+    width:450px;
+    height:20px;
+    padding:10px;
+    border-color: rgba(0,0,0,0.2);
+    border-width: 1px;
+}
+
+#forgot-pass{
+    color:rgba(15, 15, 15, 0.6);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#forgot-pass:hover{
+    color: rgba(39, 133, 70, 0.9);
+}

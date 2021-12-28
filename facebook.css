@@ -1,0 +1,82 @@
+.parent{
+    /* background: royalblue; */
+    background-color: #e9ebee;
+}
+html,body,head{
+    margin: 0;
+}
+.child1{
+    background-color: rgb(59,89, 182);
+    padding: 20px; 
+    text-align: justify;
+    font-size: 40px;
+    font-weight: 600;
+    color: antiquewhite;
+    padding-left: 170px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+.button{
+    background-color:#42b72a;
+    text-decoration: none;
+    width: 2cm;
+    height: 1cm;
+    border-radius: 0.1cm;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.child2{
+    /* width: 260px; */
+    /* height: 260px; */
+    /* background: #fff; */
+    border: #1d2129;
+    margin: 0;
+    text-align: center;
+    padding-bottom:15%;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 0%;
+    padding-top: 5%;
+
+}
+.log1{
+    width: 200px;
+    height: 200px;
+}
+.box{
+    width: 284px;
+    height: 22px;
+    align-items: center;
+    margin-top: 0.5cm;
+    border: 1px solid #dddfe2;
+    text-align: start;
+    vertical-align: middle;
+    color: #1d2129;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+.box1{
+    width: 284px;
+    height: 22px;
+    margin-top: 0.5cm;
+    border: 1px solid #dddfe2;
+    text-align: start;
+    vertical-align: middle;
+    color: #1d2129;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+.box2{
+    margin-top: 0.5cm;
+    padding: 0px 24px;
+    width: 284px;
+    height: 42px;
+    background-color: #4267b2;
+    border-color: #4267b2;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
